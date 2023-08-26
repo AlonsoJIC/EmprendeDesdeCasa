@@ -1,15 +1,42 @@
-svg {
-  color: white;
-  display: block;
-  width: calc(100% + 1.3px);
-  position: relative;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
+body {
+  background: linear-gradient(180deg, rgba(74,35,42,1) 0%, rgba(142,102,97,1) 100%);
+  padding-top: 60px;
+}
+#ebook {
+  color: #FFFFFF59;
+  font-family: "Balsamiq Sans", Sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+#photo1{
+  width: 100%;
+}
+#photo2div {
+  display: flex;
+  justify-content: center;
+  align-items:  center;
+}
+#photo2{
+  justify-content: center;
+
+  width: 80%;
+}
+#photo3div {
+  display: flex;
+  justify-content: center;
+  align-items:  center;
+}
+#photo3{
+  width: 90%;
 }
 
+
 svg {
+  color: rgb(255, 255, 255);
+  display: block;
+  position: relative;
+  transform: rotate(180deg);
   width: calc(100% + 1.3px);
   height: 142px;
 }
+
