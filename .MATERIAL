@@ -1,4 +1,0 @@
-.elementor-7 .elementor-element.elementor-element-356ba38:not(.elementor-motion-effects-element-type-background), .elementor-7 .elementor-element.elementor-element-356ba38 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
-    background-color: transparent;
-    background-image: radial-gradient(at center center, #8E6661 0%, #36171D 69%);
-}

@@ -1,0 +1,13 @@
+#main {
+  background: radial-gradient(at center center, #8E6661 0%, #36171D 69%);
+  padding: 20px;
+  padding-top: 25px;
+}
+
+.titulo {
+  color: #FFFFFF;
+  font-family: "Balsamiq Sans", Sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+}

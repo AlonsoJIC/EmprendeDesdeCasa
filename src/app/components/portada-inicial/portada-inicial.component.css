@@ -1,0 +1,15 @@
+svg {
+  color: white;
+  display: block;
+  width: calc(100% + 1.3px);
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+svg {
+  width: calc(100% + 1.3px);
+  height: 142px;
+}
