@@ -1,0 +1,94 @@
+#section1 {
+  margin-top: 50px;
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #8E6661 0%, #36171D 100%);
+  padding-bottom: 50px;
+}
+#sec1title {
+  color: #FFFFFF;
+  font-family: "Balsamiq Sans", Sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  padding-top: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.subtitle1,
+.subtitle2 {
+  text-align: center;
+  color: #CEBEB6;
+  font-family: "Roboto", Sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+.btn-wider {
+  width: 95%;
+  color: #70332F;
+}
+.inner {
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  width: 95%;
+  color: #8E6661;
+}
+
+
+
+/* SECTION 2 */
+#section2 {
+  background-color: #36171D;
+}
+#divphoto1 {
+  text-align: center;
+}
+#photo1 {
+  width: 60vh;
+}
+.subtitle3 {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "Roboto", Sans-serif;
+  margin-top: 25px;
+  font-size: 24px;
+  line-height: 28px;
+}
+.btn-wider2 {
+  width: 50%;
+  color: #70332F;
+}
+.inner2 {
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  width: 50%;
+  color: #8E6661;
+}
+
+
+/* SECTION 3 */
+#section3 {
+  background-color: white;
+  margin-top: 20px;
+}
+.subtitle4 {
+  text-align: center;
+  color: #932339;
+  font-family: "Roboto", Sans-serif;
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+
+/* SECTION 4 */
+#section4 {
+  background-image: radial-gradient(at center center, #8E6661 0%, #36171D 100%);
+  padding-top: 25px;
+}
+#photo21Div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#photo21 {
+  text-align: center;
+  width: 30vh;
+}

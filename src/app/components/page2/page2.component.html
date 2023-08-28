@@ -1,0 +1,89 @@
+<!-- SECTION1 -->
+<section id="section1">
+  <div class="container">
+    <h2 id="sec1title">¿Qué aprenderás en este e-book?</h2>
+    <div class="row">
+      <div class="col-lg-6" id="div1">
+        <h2 class="subtitle1">Primera parte: <br>Cómo elaborar deliciosas donas y mini donas</h2>
+        <div class="mb-3" *ngFor="let contenido of contenidos1; let i = index">
+          <button class="btn btn-light btn-wider" (click)="toggleContenido1(i)">
+            {{ contenido.titulo }}
+          </button>
+          <div class="collapse" [ngClass]="{'show': contenido.visible}">
+            <div class="inner" [innerHTML]="contenido.info"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6" id="div2">
+        <h2 class="subtitle2">Segunda parte: <br>Cómo emprender con éxito desde casa</h2>
+        <div class="mb-3" *ngFor="let contenido of contenidos2; let i = index">
+          <button class="btn btn-light btn-wider" (click)="toggleContenido2(i)">
+            {{ contenido.titulo }}
+          </button>
+          <div class="collapse" [ngClass]="{'show': contenido.visible}">
+            <div class="inner" [innerHTML]="contenido.info"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION2 -->
+<section id="section2">
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col-12" id="divphoto1">
+        <img src="/assets/2-0.png" alt="" id="photo1">
+      </div>
+      <h2 class="subtitle3">Descarga el e-book en tu celular y llévalo siempre contigo para consultarlo en cualquier
+        momento y en cualquier lugar, incluso sin conexión a internet.<br><br>
+        Además, he incluido dos bonos especiales que te serán muy útiles para comenzar....
+      </h2>
+      <div class="mb-4 mt-4 col-12 offset-md-6" id="innerDiv" *ngFor="let contenido of contenidos3; let i = index">
+        <button class="btn btn-light btn-wider2" (click)="toggleContenido3(i)">
+          {{ contenido.titulo }}
+        </button>
+        <div class="collapse" [ngClass]="{'show': contenido.visible}">
+          <div class="inner2" [innerHTML]="contenido.info"></div>
+        </div>
+      </div>
+      <div class="mb-4 col-12 offset-md-6" *ngFor="let contenido of contenidos4; let i = index">
+        <button class="btn btn-light btn-wider2" (click)="toggleContenido4(i)">
+          {{ contenido.titulo }}
+        </button>
+        <div class="collapse" [ngClass]="{'show': contenido.visible}">
+          <div class="inner2" [innerHTML]="contenido.info"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- SECTION 3 -->
+<section id="section3">
+  <div class="container">
+    <div class="row">
+      <div class="col-12" id="">
+        <h2 class="subtitle4">y un regalo especial....</h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- SECTION 4 -->
+<section id="section4">
+  <div class="container">
+    <div class="row">
+      <div class="col col-lg-6" id="">
+        <h2 class="subtitle4">y un regalo especial....</h2>
+      </div>
+      <div class="col col-lg-6" id="photo21Div">
+        <img src="assets/2-1.png" alt="" id="photo21">
+      </div>
+    </div>
+  </div>
+</section>
