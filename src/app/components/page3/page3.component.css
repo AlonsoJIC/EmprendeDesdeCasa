@@ -1,0 +1,149 @@
+.title1 {
+  margin-top: 25px;
+  color: #C69393;
+  font-family: "Roboto", Sans-serif;
+  font-size: 31px;
+}
+.title2 {
+  color: #932339;
+  font-family: "Roboto", Sans-serif;
+  font-size: 29px;
+}
+#photo30 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  width: 40%;
+}
+.title3 {
+  color: #932339;
+  font-family: "Roboto", Sans-serif;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+/* SECTION 2 */
+#section2 {
+  background-color: transparent;
+  background-image: linear-gradient(160deg, #8E666187 16%, #36171DE8 100%);
+}
+.svg1 {
+  color: rgb(255, 255, 255);
+  filter: invert(100%);
+  height: 78px;
+  width: calc(100% + 1.3px);
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin-bottom: 22px;
+}
+#divMainSec2 {
+  margin-bottom: 45px;
+}
+.title4 {
+  color: #5D222D;
+  font-family: "Roboto", Sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+}
+.title5 {
+  color: #FFFFFF;
+  font-family: "Roboto", Sans-serif;
+  font-size: 34px;
+  font-weight: 600;
+}
+.title6 {
+  color: #890E0E;
+  font-family: "Roboto", Sans-serif;
+  font-size: 86px;
+  font-weight: 600;
+}
+.title7 {
+  color: #F2E2E2;
+  font-family: "Roboto", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.button1 {
+  font-family: "Roboto", Sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  background-color: #890E0E;
+  border-radius: 28px 28px 28px 28px;
+  text-decoration: none;
+  padding: 15px;
+  margin-top: 15px;
+}
+.button1:hover{
+  background-color: #580a0a;
+}
+.button1 span {
+  color: white;
+}
+.textDiv2 {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "Roboto", Sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 25px;
+}
+.title8 {
+  color: #CFC0C0;
+  font-family: "Roboto", Sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+}
+.countdownDiv {
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.countdownItem{
+  background-color: #542931;
+  color: white;
+  padding-bottom: 2px;
+  width: 13%;
+  margin: 2px;
+  border: solid #fff 1px;
+  border-color: white;
+  border-radius: 15px;
+}
+.countdownItem span {
+  display: block;
+  margin-bottom: -3px;
+}
+.countNumber {
+  font-size: 4.5vh;
+}
+.countText {
+  font-size: 2vh;
+}
+.svg2 {
+  filter: invert(100%);
+  height: 31px;
+  width: calc(100% + 1.3px);
+  position: relative;
+  transform: rotate(180deg);
+}
+
+
+/* SECTION 3 */
+#section3 {
+  background-color: white;
+  margin-top: 20px;
+  padding-bottom: 18px;
+}
+#imgDivSec3 img{
+  width: 35%;
+  opacity: 0.5;
+}
+#imgDivSec3 h2 {
+  color: #50131f;
+  font-family: "Roboto", Sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+}

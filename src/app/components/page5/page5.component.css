@@ -1,0 +1,15 @@
+#section1 {
+  background-image: linear-gradient(160deg, #8E666187 16%, #36171DE8 100%);
+  padding-bottom: 500px;
+}
+svg {
+  filter: invert(100%);
+  width: calc(117% + 1.3px);
+  height: 78px;
+  position: relative;
+  transform: rotate(180deg);
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+

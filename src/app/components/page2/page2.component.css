@@ -4,6 +4,9 @@
   background-image: linear-gradient(180deg, #8E6661 0%, #36171D 100%);
   padding-bottom: 50px;
 }
+.container {
+  justify-content: center;
+}
 #sec1title {
   color: #FFFFFF;
   font-family: "Balsamiq Sans", Sans-serif;
@@ -42,7 +45,12 @@
   text-align: center;
 }
 #photo1 {
-  width: 60vh;
+  width: 50%;
+}
+@media only screen and (max-width: 1050px) {
+  #photo1 {
+    width: 70%;
+  }
 }
 .subtitle3 {
   text-align: center;
@@ -53,8 +61,11 @@
   line-height: 28px;
 }
 .btn-wider2 {
-  width: 50%;
+  width: 100%;
   color: #70332F;
+}
+.innerDivs{
+  width: 200%;
 }
 .inner2 {
   border-radius: 5px;
@@ -73,7 +84,7 @@
   text-align: center;
   color: #932339;
   font-family: "Roboto", Sans-serif;
-  font-size: 42px;
+  font-size: 35px;
   margin-bottom: 20px;
 }
 
@@ -82,7 +93,16 @@
 #section4 {
   background-image: radial-gradient(at center center, #8E6661 0%, #36171D 100%);
   padding-top: 25px;
+  padding-bottom: 25px;
 }
+#section4div{
+  text-align: center;
+  color: #FFFFFF;
+}
+#section4div h2 {
+  color: #FFFFFF;
+}
+
 #photo21Div {
   display: flex;
   justify-content: center;
@@ -90,5 +110,5 @@
 }
 #photo21 {
   text-align: center;
-  width: 30vh;
+  width: 40%;
 }

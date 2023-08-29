@@ -1,0 +1,31 @@
+/* SECTION 1 */
+#section1 {
+  background-image: linear-gradient(180deg, #36171D 0%, #8E6661 100%);
+  padding-top: 25px;
+}
+.titleSec1 {
+  margin: 0;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  background-color: #36171D;
+  color: #FEFFFF;
+  font-family: "Roboto", Sans-serif;
+  font-size: 34px;
+}
+.pSec1 {
+  padding: 0 5px;
+  color: #FFFFFF;
+  font-family: "Roboto", Sans-serif;
+  font-size: 16px;
+}
+.imgSec1Div1 {
+  width: 30%;
+  margin-bottom: 35px;
+}
+
+
+/* SECTION 2 */
+#section2 {
+  background-image: linear-gradient(180deg, #8E6661 2%, #FDFDFD 100%);
+}

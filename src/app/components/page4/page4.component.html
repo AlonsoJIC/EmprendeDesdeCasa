@@ -1,0 +1,45 @@
+<!-- SECTION 1 -->
+<h2 class="titleSec1">Aprenderás de la mano de una experta:</h2>
+<section id="section1">
+  <div class="container text-center" id="divMainSec1">
+    <div class="row">
+      <div class="col col-sm-12 col-md-12 col-lg-6" id="section1div">
+        <p class="pSec1">
+          Este e-book ha sido escrito con la guía experta de Lucy Robles, una reconocida coach gastronómica con más de 25 años de experiencia, certificada en pastelería y chocolatería.
+        </p>
+        <p class="pSec1">
+          Fundadora de Gastronomía CREAtiv en Guadalajara, Jal. México.
+        </p>
+        <p class="pSec1">
+          Su gran pasión por la repostería la ha llevado a la docencia, además de la creación de deliciosas y sorprendentes recetas
+        </p>
+        <p class="pSec1">
+          Con su vasto conocimiento y experiencia, te guiará paso a paso para emprender desde tu propio hogar y crear un negocio exitoso.
+        </p>
+        <img src="assets/4-0.png" class="imgSec1Div1">
+      </div>
+      <div class="col col-sm-12 col-md-12 col-lg-6" id="section1div">
+        <h1>ACA VA UN CARROUSEL</h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION2 -->
+<section id="section2">
+  <div class="container text-center">
+    <h2 id="sec2title">Preguntas frecuentes</h2>
+    <div class="row">
+      <div class="col-lg-12" id="div1">
+        <div class="mb-3" *ngFor="let contenido of contenidos1; let i = index">
+          <button class="btn btn-light btn-wider" (click)="toggleContenido1(i)">
+            {{ contenido.titulo }}
+          </button>
+          <div class="collapse" [ngClass]="{'show': contenido.visible}">
+            <div class="inner" [innerHTML]="contenido.info"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -34,26 +34,26 @@
 <section id="section2">
   <div class="container">
     <div class="row justify-content-md-center">
-      <div class="col-12" id="divphoto1">
+      <div class="container-fluid" id="divphoto1">
         <img src="/assets/2-0.png" alt="" id="photo1">
       </div>
       <h2 class="subtitle3">Descarga el e-book en tu celular y llévalo siempre contigo para consultarlo en cualquier
         momento y en cualquier lugar, incluso sin conexión a internet.<br><br>
         Además, he incluido dos bonos especiales que te serán muy útiles para comenzar....
       </h2>
-      <div class="mb-4 mt-4 col-12 offset-md-6" id="innerDiv" *ngFor="let contenido of contenidos3; let i = index">
+      <div class="mb-4 mt-4 col-12 offset-md-0" id="innerDiv" *ngFor="let contenido of contenidos3; let i = index">
         <button class="btn btn-light btn-wider2" (click)="toggleContenido3(i)">
           {{ contenido.titulo }}
         </button>
-        <div class="collapse" [ngClass]="{'show': contenido.visible}">
+        <div class="collapse innerDivs" [ngClass]="{'show': contenido.visible}">
           <div class="inner2" [innerHTML]="contenido.info"></div>
         </div>
       </div>
-      <div class="mb-4 col-12 offset-md-6" *ngFor="let contenido of contenidos4; let i = index">
+      <div class="mb-4 col-12 offset-md-0" id="innerDiv" *ngFor="let contenido of contenidos4; let i = index">
         <button class="btn btn-light btn-wider2" (click)="toggleContenido4(i)">
           {{ contenido.titulo }}
         </button>
-        <div class="collapse" [ngClass]="{'show': contenido.visible}">
+        <div class="collapse innerDivs" [ngClass]="{'show': contenido.visible}">
           <div class="inner2" [innerHTML]="contenido.info"></div>
         </div>
       </div>
@@ -78,8 +78,11 @@
 <section id="section4">
   <div class="container">
     <div class="row">
-      <div class="col col-lg-6" id="">
-        <h2 class="subtitle4">y un regalo especial....</h2>
+      <div class="col col-lg-6" id="section4div">
+        <h2 class="subtitle4">UN RECETARIO <br>para preparar  <br>deliciosas Berlinesas</h2>
+        <strong><p>El complemento ideal para tu emprendimiento.</p></strong>
+        <strong><p>Incluye las recetas básicas para preparar la masa más 10 sabores diferentes de deliciosos rellenos:</p></strong>
+        <strong><p>Moka, Rompope, Coco, Queso con Zarzamora, Frutos rojos, Almendras y más……</p></strong>
       </div>
       <div class="col col-lg-6" id="photo21Div">
         <img src="assets/2-1.png" alt="" id="photo21">

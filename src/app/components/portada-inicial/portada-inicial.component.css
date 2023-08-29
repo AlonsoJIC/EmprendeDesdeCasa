@@ -30,10 +30,21 @@
 }
 #photo2{
   justify-content: center;
-  width: 130%;
-  margin-right: 30px;
+  width: 100%;
+}
+@media only screen and (max-width: 766px) {
+  #photo2 {
+    width: 70%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+#photo3div{
+  display: flex;
+  justify-content: center;
 }
 #photo3{
+  text-align: center;
   width: 90%;
 }
 svg {
