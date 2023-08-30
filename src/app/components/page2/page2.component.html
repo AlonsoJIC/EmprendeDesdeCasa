@@ -20,6 +20,7 @@
         <h2 class="subtitle2">Segunda parte: <br>Cómo emprender con éxito desde casa</h2>
         <div class="mb-3" *ngFor="let contenido of contenidos2; let i = index">
           <button class="btn btn-light btn-wider" (click)="toggleContenido2(i)">
+            <span class="faIcon"><i class="fas fa-caret-right"></i></span>
             {{ contenido.titulo }}
           </button>
           <div class="collapse" [ngClass]="{'show': contenido.visible}">
@@ -36,7 +37,7 @@
   <div class="container text-center">
     <div class="row">
       <div class="container-fluid" id="divphoto1">
-        <img src="/assets/2-0.png" alt="" id="photo1">
+        <img src="/assets/2-0.webp" alt="" id="photo1">
       </div>
       <h2 class="subtitle3">Descarga el e-book en tu celular y llévalo siempre contigo para consultarlo en cualquier <br>
         momento y en cualquier lugar, incluso sin conexión a internet.<br><br>
@@ -88,7 +89,7 @@
         <p>Moka, Rompope, Coco, Queso con Zarzamora, Frutos rojos, <br>Almendras y más……</p>
       </div>
       <div class="col-12 col-sm-12 col-md-12 col-lg-6" id="photo21Div">
-        <img src="assets/2-1.png" alt="" id="photo21">
+        <img src="assets/2-1.webp" alt="" id="photo21">
       </div>
     </div>
   </div>
