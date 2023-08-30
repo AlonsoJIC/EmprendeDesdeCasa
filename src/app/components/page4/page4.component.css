@@ -10,14 +10,16 @@
   padding-bottom: 15px;
   background-color: #36171D;
   color: #FEFFFF;
-  font-family: "Roboto", Sans-serif;
+  font-family: Sans-serif;
+  font-weight: 400;
   font-size: 34px;
 }
 .pSec1 {
-  padding: 0 5px;
+  padding: 0 30px;
   color: #FFFFFF;
-  font-family: "Roboto", Sans-serif;
-  font-size: 16px;
+  font-family: Sans-serif;
+  font-weight: 400;
+  font-size: 14px;
 }
 .imgSec1Div1 {
   width: 30%;
@@ -48,6 +50,8 @@
   color: #ffffff;
   border-color: #8E6661;
   background-color: #8E6661;
+  font-family: Sans-serif;
+  font-weight: 600;
 }
 .faIcon {
   margin-right: 15px;

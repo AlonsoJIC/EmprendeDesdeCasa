@@ -1,23 +1,26 @@
 .title1 {
   margin-top: 25px;
   color: #C69393;
-  font-family: "Roboto", Sans-serif;
-  font-size: 31px;
+  font-family: Sans-serif;
+  font-size: 30px;
+  font-weight: 600;
 }
 .title2 {
   color: #932339;
-  font-family: "Roboto", Sans-serif;
+  font-family: Sans-serif;
   font-size: 29px;
+  font-weight: 600;
 }
 #photo30 {
   margin-top: 20px;
   margin-bottom: 15px;
-  width: 40%;
+  width: 39%;
 }
 .title3 {
   color: #932339;
   font-family: "Roboto", Sans-serif;
   font-size: 22px;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 
@@ -43,37 +46,37 @@
 }
 .title4 {
   color: #5D222D;
-  font-family: "Roboto", Sans-serif;
+  font-family: Sans-serif;
   font-size: 36px;
   font-weight: 600;
 }
 .title5 {
   color: #FFFFFF;
-  font-family: "Roboto", Sans-serif;
+  font-family: Sans-serif;
   font-size: 34px;
   font-weight: 600;
 }
 .title6 {
   color: #890E0E;
-  font-family: "Roboto", Sans-serif;
+  font-family: Sans-serif;
   font-size: 86px;
   font-weight: 600;
 }
 .title7 {
   color: #F2E2E2;
-  font-family: "Roboto", Sans-serif;
+  font-family: Sans-serif;
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 25px;
 }
 .button1 {
-  font-family: "Roboto", Sans-serif;
+  font-family: Sans-serif;
   font-size: 28px;
   font-weight: 500;
   background-color: #890E0E;
   border-radius: 28px 28px 28px 28px;
   text-decoration: none;
-  padding: 15px;
+  padding: 10px;
   margin-top: 15px;
 }
 .button1:hover{
@@ -85,14 +88,14 @@
 .textDiv2 {
   text-align: center;
   color: #FFFFFF;
-  font-family: "Roboto", Sans-serif;
+  font-family: Sans-serif;
   font-size: 24px;
   font-weight: 400;
   margin-top: 25px;
 }
 .title8 {
   color: #CFC0C0;
-  font-family: "Roboto", Sans-serif;
+  font-family: Sans-serif;
   font-size: 35px;
   font-weight: 600;
 }
@@ -143,7 +146,7 @@
 }
 #imgDivSec3 h2 {
   color: #50131f;
-  font-family: "Roboto", Sans-serif;
+  font-family: Sans-serif;
   font-size: 25px;
   font-weight: 600;
 }

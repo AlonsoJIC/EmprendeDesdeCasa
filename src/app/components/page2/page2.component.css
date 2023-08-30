@@ -20,19 +20,24 @@
 .subtitle2 {
   text-align: center;
   color: #CEBEB6;
-  font-family: "Roboto", Sans-serif;
-  font-size: 24px;
+  font-family: Sans-serif;
+  font-size: 23px;
   font-weight: 600;
 }
 .btn-wider {
-  width: 95%;
+  width: 100%;
+  font-size: 15px;
+  font-family: Sans-serif;
+  font-weight: 600;
   color: #70332F;
+  text-align: left;
 }
 .inner {
   border-radius: 5px;
   background-color: #FFFFFF;
-  width: 95%;
+  width: 100%;
   color: #8E6661;
+  text-align: left;
 }
 
 
@@ -56,7 +61,7 @@
 .subtitle3 {
   text-align: center;
   color: #FFFFFF;
-  font-family: "Roboto", Sans-serif;
+  font-family: Sans-serif;
   margin-top: 25px;
   font-size: 24px;
   line-height: 28px;
@@ -64,12 +69,18 @@
 .btn-wider2 {
   width: 100%;
   color: #70332F;
+  font-family: Sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
 }
 .inner2 {
   border-radius: 5px;
   background-color: #FFFFFF;
-  width: 50%;
+  width: 100%;
   color: #8E6661;
+  font-size: 13px;
+  text-align: left;
 }
 
 
@@ -81,8 +92,9 @@
 .subtitle4 {
   text-align: center;
   color: #932339;
-  font-family: "Roboto", Sans-serif;
-  font-size: 35px;
+  font-family: Sans-serif;
+  font-size: 42px;
+  font-weight: 600;
   margin-bottom: 20px;
 }
 
@@ -99,6 +111,10 @@
 }
 #section4div h2 {
   color: #FFFFFF;
+  font-size: 30px;
+}
+#section4div p {
+  font-weight: 400;
 }
 
 #photo21Div {

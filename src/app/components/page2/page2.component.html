@@ -1,12 +1,13 @@
 <!-- SECTION1 -->
 <section id="section1">
-  <div class="container">
+  <div class="container text-center">
     <h2 id="sec1title">¿Qué aprenderás en este e-book?</h2>
     <div class="row">
       <div class="col-lg-6" id="div1">
         <h2 class="subtitle1">Primera parte: <br>Cómo elaborar deliciosas donas y mini donas</h2>
         <div class="mb-3" *ngFor="let contenido of contenidos1; let i = index">
           <button class="btn btn-light btn-wider" (click)="toggleContenido1(i)">
+            <span class="faIcon"><i class="fas fa-caret-right"></i></span>
             {{ contenido.titulo }}
           </button>
           <div class="collapse" [ngClass]="{'show': contenido.visible}">
@@ -32,25 +33,27 @@
 
 <!-- SECTION2 -->
 <section id="section2">
-  <div class="container">
-    <div class="row justify-content-md-center">
+  <div class="container text-center">
+    <div class="row">
       <div class="container-fluid" id="divphoto1">
         <img src="/assets/2-0.png" alt="" id="photo1">
       </div>
-      <h2 class="subtitle3">Descarga el e-book en tu celular y llévalo siempre contigo para consultarlo en cualquier
+      <h2 class="subtitle3">Descarga el e-book en tu celular y llévalo siempre contigo para consultarlo en cualquier <br>
         momento y en cualquier lugar, incluso sin conexión a internet.<br><br>
         Además, he incluido dos bonos especiales que te serán muy útiles para comenzar....
       </h2>
-      <div class="mb-4 mt-4 col-12 offset-md-0" id="innerDiv" *ngFor="let contenido of contenidos3; let i = index">
+      <div class="col-sm-8 col-md-8 col-lg-8 offset-md-2 mb-4 mt-4 " id="innerDiv" *ngFor="let contenido of contenidos3; let i = index">
         <button class="btn btn-light btn-wider2" (click)="toggleContenido3(i)">
+          <span class="faIcon"><i class="fas fa-caret-right"></i></span>
           {{ contenido.titulo }}
         </button>
         <div class="collapse innerDivs" [ngClass]="{'show': contenido.visible}">
           <div class="inner2" [innerHTML]="contenido.info"></div>
         </div>
       </div>
-      <div class="mb-4 col-12 offset-md-0" id="innerDiv" *ngFor="let contenido of contenidos4; let i = index">
+      <div class="col-sm-8 col-md-8 col-lg-8 offset-md-2 mb-4" id="innerDiv" *ngFor="let contenido of contenidos4; let i = index">
         <button class="btn btn-light btn-wider2" (click)="toggleContenido4(i)">
+          <span class="faIcon"><i class="fas fa-caret-right"></i></span>
           {{ contenido.titulo }}
         </button>
         <div class="collapse innerDivs" [ngClass]="{'show': contenido.visible}">
@@ -79,10 +82,10 @@
   <div class="container">
     <div class="row">
       <div class="col-12 col-sm-12 col-md-12 col-lg-6" id="section4div">
-        <h2 class="subtitle4">UN RECETARIO <br>para preparar  <br>deliciosas Berlinesas</h2>
-        <strong><p>El complemento ideal para tu emprendimiento.</p></strong>
-        <strong><p>Incluye las recetas básicas para preparar la masa más 10 sabores diferentes de deliciosos rellenos:</p></strong>
-        <strong><p>Moka, Rompope, Coco, Queso con Zarzamora, Frutos rojos, Almendras y más……</p></strong>
+        <h2>UN RECETARIO <br>para preparar  <br>deliciosas Berlinesas</h2>
+        <p>El complemento ideal para tu emprendimiento.</p>
+        <p>Incluye las recetas básicas para preparar la masa más 10 <br>sabores diferentes de deliciosos rellenos:</p>
+        <p>Moka, Rompope, Coco, Queso con Zarzamora, Frutos rojos, <br>Almendras y más……</p>
       </div>
       <div class="col-12 col-sm-12 col-md-12 col-lg-6" id="photo21Div">
         <img src="assets/2-1.png" alt="" id="photo21">
