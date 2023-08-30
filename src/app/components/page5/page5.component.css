@@ -1,8 +1,7 @@
 #section1 {
   background-image: linear-gradient(160deg, #8E666187 16%, #36171DE8 100%);
-  padding-bottom: 500px;
 }
-svg {
+#svg1 {
   filter: invert(100%);
   width: calc(117% + 1.3px);
   height: 78px;
@@ -11,5 +10,123 @@ svg {
   left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
+  margin-bottom: 22px;
+}
+.sec1Img {
+  width: 82%;
+  margin-bottom: 15px;
+}
+.title1 {
+  color: #FFFFFF;
+  font-family: Sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+}
+.title2 {
+  color: #890E0E;
+  font-family:  Sans-serif;
+  font-size: 86px;
+  font-weight: 600;
+}
+.title3 {
+  color: #F2E2E2;
+  font-family: Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  margin-top: 18px;
+}
+.button1 {
+  font-family: Sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  background-color: #890E0E;
+  border-radius: 28px 28px 28px 28px;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 15px;
+}
+.button1:hover{
+  background-color: #580a0a;
+}
+.button1 span {
+  color: white;
+}
+.title4 {
+  color: #CFC0C0;
+  font-family: Sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.countdownDiv {
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.countdownItem{
+  background-color: #542931;
+  color: white;
+  padding-bottom: 2px;
+  width: 13%;
+  margin: 2px;
+  border: solid #fff 1px;
+  border-color: white;
+  border-radius: 15px;
+}
+.countdownItem span {
+  display: block;
+  margin-bottom: -3px;
+}
+.countNumber {
+  font-size: 4.5vh;
+}
+.countText {
+  font-size: 2vh;
+}
+.svg2 {
+  width: calc(100% + 1.3px);
+  height: 31px;
+  filter: invert(100%);
+  position: relative;
+  transform: rotate(180deg);
 }
 
+
+/* SECTION 2 */
+#section2 {
+  background-color: white;
+}
+.title1sec2 {
+  margin-top: 27px;
+  color: #C69393;
+  font-family: Sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+}
+.title2sec2 {
+  color: #932339;
+  font-family: Sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.imgSec2 {
+  width: 20%;
+}
+
+@media only screen and (max-width: 1050px) {
+  .imgSec2 {
+    width: 40%;
+  }
+  .title2 {
+    font-size: 46px;
+  }
+  .title1sec2 {
+    font-size: 25px;
+  }
+  .title2sec2 {
+    font-size: 20px;
+  }
+}

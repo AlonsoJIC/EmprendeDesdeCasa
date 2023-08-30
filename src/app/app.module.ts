@@ -9,6 +9,7 @@ import { Page2Component } from './components/page2/page2.component';
 import { Page3Component } from './components/page3/page3.component';
 import { Page4Component } from './components/page4/page4.component';
 import { Page5Component } from './components/page5/page5.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { Page5Component } from './components/page5/page5.component';
     Page3Component,
     Page4Component,
     Page5Component,
+    FooterComponent,
 
   ],
   imports: [

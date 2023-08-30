@@ -1,0 +1,16 @@
+footer {
+  background-color: #4B2E2E;
+  margin-top: 25px;
+  padding: 36px;
+}
+h2{
+  color: #FFFFFF;
+  font-family: Sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+}
+@media only screen and (max-width: 1050px) {
+  footer {
+    padding: 25px;
+  }
+}
